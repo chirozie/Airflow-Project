@@ -4,7 +4,7 @@ import os
 
 def extract_data(api_id, api_key):
     print(api_id, api_key)
-    currencies = ['NGN', 'GHS', 'KES', 'UGX', 'MAD', 'XOF', 'EGP']
+    currencies = ['NGN', 'GHS', 'KES', 'UGX', 'MAD', 'XOF', 'EGP', 'JPY']
     to_curr = ",".join(currencies)
     url = f'https://xecdapi.xe.com/v1/convert_from.json?from=USD&to={to_curr}'
 
